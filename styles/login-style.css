@@ -111,38 +111,11 @@ form .txt_field{
     text-decoration: none !important ;
     margin: 35%;
 }
-  
 
 .login:hover {
     text-decoration: underline;
 }
 
-
-/*.login{
-    color: #a6a6a6;
-    cursor: pointer;
-    padding-top: 25px;
-    margin-left: 5px;
-    margin-bottom: 20px;
-}
-
-.login:hover{
-    text-decoration: underline;
-}
-
-input[type="submit"]{
-    margin-left: 30px;
-    width: 70%;
-    height: 50px;
-    border: 1px solid;
-    background: linear-gradient(to right, #3FC6FB, #7870b9, #af089b);    border-radius: 25px;
-    font-size: 18px;
-    color: #e9f4fb;
-    font-weight: 700;
-    cursor: pointer;
-    outline: none;
-}
-*/
 
 
 .signup_link{

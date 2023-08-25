@@ -1,0 +1,142 @@
+/* Styles for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  .box {
+      width: 100px;
+      height: 100px;
+      background-color: green;
+  }
+}
+
+/* Styles for screens larger than 600px */
+@media screen and (min-width: 600px) {
+  .box {
+      width: 400px;
+      height: 400px;
+      background-color: blue;
+  }
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #f2f2f2; 
+
+   }
+
+   body{
+    font-family: arial;
+   }
+
+   .nav {
+    height: 60px;
+    margin: 1%;
+    width: 100%;
+  }
+  
+  .search--bar{
+    width: 80%;
+    float: left;
+    display: flex;
+    margin-top: 3px;
+  }
+  
+  .search--input {
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 25px;
+    width: 40%;
+  }
+  
+  .search--button{
+    cursor: pointer;
+    text-align: center;
+    width: 10%;
+    margin-left: -20px;
+    line-height: 20px;
+    background: linear-gradient(to right, #3FC6FB, #7870b9, #af089b);    border-radius: 25px;
+  }
+  
+  .fa-long-arrow-up{
+    margin-top: 17px;
+  }
+  
+  .nav .nav--add {
+    float: right;
+    align-content:space-between;
+  }
+  
+  .nav .nav--add ul {
+    display: flex;
+  }
+  
+  .nav .nav--add ul li {
+    display: flex;
+  }
+  
+  .nav .nav--add ul li a {
+    padding: 22px;
+    line-height: 10px;
+    text-decoration: none;
+  }
+  
+
+   .main{
+    width: auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    margin: 1%;
+    
+   }
+   
+   .card{
+        width: 100%;
+        /* box-shadow: 2px 2px 20px black; */
+        border-radius: 5px; 
+        /* margin: 15%; */
+        margin-top: 15%;
+        margin-bottom: 15%;
+        
+       }
+   
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     
+    }
+   
+   .title{
+    
+     padding: 10px -10px;
+     
+    }
+   
+   h1{
+     font-size: 20px;
+    }
+   
+   .des{
+     padding: 3px;
+     padding-top: 10px;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+
+   .see-button{
+     width: 25%;
+     margin: -20px 0 20px 47%;
+     transition: .5s;
+     cursor: pointer;
+     
+   }
+
+   .see--more-button{
+    margin:auto;
+    width: 40%;
+    background: none;
+    font-size:  18px;
+    padding: 10px;
+   }
